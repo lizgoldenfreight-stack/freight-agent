@@ -13,6 +13,8 @@
 | `Document_Agent.xlsx` | 文档Agent — 货物信息→自动生成发票/装箱单/文档清单/船期表 |
 | `Followup_Agent.xlsx` | 跟进Agent — 今日跟进/跟进记录/客户分级/消息模板/看板 |
 | `Finance_Agent.xlsx` | 财务Agent — 收支记录/应收应付/月度报表/财务看板 |
+| `Social_Media_Agent.xlsx` | 社媒Agent — 内容日历/LinkedIn&FB模板/素材库/Hashtag/最佳发布时间 |
+| `Customer_Service_Agent.xlsx` | 客服Agent — FAQ/货物追踪/工单管理/客服话术/客服看板 |
 
 ---
 
