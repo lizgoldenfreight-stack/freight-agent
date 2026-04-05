@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Bot Dashboard - Freight Agent</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: white; text-align: center; margin-bottom: 30px; font-size: 28px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
+        .card h2 { color: #333; margin-bottom: 16px; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+        .status-bar { display: flex; gap: 15px; margin-bottom: 20px; }
+        .status-item { flex: 1; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px; border-radius: 12px; text-align: center; }
+        .status-item .num { font-size: 28px; font-weight: bold; }
+        .status-item .label { font-size: 12px; opacity: 0.9; }
+        .reply-card { background: #f8f9fa; border-radius: 10px; padding: 16px; margin-bottom: 12px; border-left: 4px solid #667eea; }
+        .reply-card .intent { font-weight: bold; color: #667eea; margin-bottom: 8px; }
+        .reply-card .text { font-size: 13px; color: #555; white-space: pre-wrap; line-height: 1.6; }
+        .keyword-cloud { display: flex; flex-wrap: wrap; gap: 8px; }
+        .kw { background: #e8eaf6; color: #3f51b5; padding: 6px 12px; border-radius: 20px; font-size: 13px; }
+        .kw.cn { background: #fff3e0; color: #e65100; }
+        .steps { list-style: none; counter-reset: step; }
+        .steps li { counter-increment: step; padding: 12px 0; border-bottom: 1px solid #eee; display: flex; align-items: flex-start; gap: 12px; }
+        .steps li::before { content: counter(step); background: #667eea; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 14px; flex-shrink: 0; }
+        .code { background: #1e1e1e; color: #d4d4d4; padding: 2px 8px; border-radius: 4px; font-family: 'Consolas', monospace; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 WhatsApp Freight Bot Dashboard</h1>
+        
+        <div class="status-bar">
+            <div class="status-item"><div class="num">🟢</div><div class="label">Bot Active</div></div>
+            <div class="status-item"><div class="num">5</div><div class="label">Intents</div></div>
+            <div class="status-item"><div class="num">EN/CN</div><div class="label">Languages</div></div>
+            <div class="status-item"><div class="num">24/7</div><div class="label">Auto-Reply</div></div>
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <h2>📝 Quick Reply Templates</h2>
+                
+                <div class="reply-card">
+                    <div class="intent">🚢 Quote Request</div>
+                    <div class="text">Thanks for your interest! To give you an accurate quote, I need:
+
+1. From which city/port in China?
+2. To where in Malaysia?
+3. What cargo?
+4. Volume (CBM) or weight (KG)?
+5. When do you need to ship?
+
+I'll get back with a competitive rate ASAP! 🚢</div>
+                </div>
+                
+                <div class="reply-card">
+                    <div class="intent">📦 Shipment Tracking</div>
+                    <div class="text">Let me check the status for you! 🔍
+Could you share your booking reference or B/L number?</div>
+                </div>
+                
+                <div class="reply-card">
+                    <div class="intent">⏱️ Transit Time</div>
+                    <div class="text">🚢 Sea: China→PKL: 7-12 days | East MY: +3-5 days
+✈️ Air: China→KUL: 1-3 days
++ 2-3 days customs & delivery</div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>🏷️ Detected Keywords</h2>
+                <div class="keyword-cloud">
+                    <span class="kw">price</span><span class="kw">how much</span><span class="kw">quote</span>
+                    <span class="kw">rate</span><span class="kw">where</span><span class="kw">status</span>
+                    <span class="kw">track</span><span class="kw">when</span><span class="kw">transit</span>
+                    <span class="kw">time</span><span class="kw">service</span><span class="kw">can you</span>
+                    <span class="kw cn">报价</span><span class="kw cn">多少钱</span><span class="kw cn">运价</span>
+                    <span class="kw cn">到哪</span><span class="kw cn">状态</span><span class="kw cn">追踪</span>
+                    <span class="kw cn">多久</span><span class="kw cn">时效</span><span class="kw cn">船期</span>
+                    <span class="kw cn">服务</span><span class="kw cn">能运</span><span class="kw cn">你好</span>
+                </div>
+                
+                <h2 style="margin-top: 24px;">🎯 Services Offered</h2>
+                <div style="line-height: 2;">
+                    ✅ Sea Freight (FCL & LCL)<br>
+                    ✅ Air Freight<br>
+                    ✅ Customs Clearance<br>
+                    ✅ Door-to-Door Delivery<br>
+                    ✅ East MY Transshipment<br>
+                    ✅ Cargo Insurance
+                </div>
+            </div>
+            
+            <div class="card" style="grid-column: 1 / -1;">
+                <h2>⚙️ Setup Instructions</h2>
+                <ol class="steps">
+                    <li>Install Python dependencies: <span class="code">pip install pywhatkit flask</span></li>
+                    <li>Open WhatsApp Web in your browser: <span class="code">web.whatsapp.com</span></li>
+                    <li>Run the bot: <span class="code">python3 bot.py</span></li>
+                    <li>Scan QR code if prompted</li>
+                    <li>Bot will auto-reply to incoming messages based on keywords</li>
+                    <li>Customize replies in <span class="code">replies.json</span></li>
+                    <li>Adjust business hours in <span class="code">config.json</span></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

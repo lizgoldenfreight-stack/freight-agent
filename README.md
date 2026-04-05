@@ -15,6 +15,9 @@
 | `Finance_Agent.xlsx` | 财务Agent — 收支记录/应收应付/月度报表/财务看板 |
 | `Social_Media_Agent.xlsx` | 社媒Agent — 内容日历/LinkedIn&FB模板/素材库/Hashtag/最佳发布时间 |
 | `Customer_Service_Agent.xlsx` | 客服Agent — FAQ/货物追踪/工单管理/客服话术/客服看板 |
+| `Margin_Calculator.xlsx` | Margin计算器 — 单票/多票利润自动计算 + 速查表 |
+| `Rate_Trend_Tracker.xlsx` | 运价趋势跟踪 — 每周记录运价 + 变化对比 + 趋势看板 |
+| `whatsapp-bot/` | WhatsApp自动回复Bot — 关键词识别 + 中英双语自动回复 |
 
 ---
 

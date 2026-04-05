@@ -1,0 +1,18 @@
+{
+  "bot_name": "Freight Assistant",
+  "auto_reply": true,
+  "business_hours": {
+    "start": "09:00",
+    "end": "18:00",
+    "timezone": "Asia/Kuala_Lumpur",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  },
+  "out_of_hours_message": "Hi! Thanks for your message 🙏\n\nOur business hours are Mon-Fri 9am-6pm, Sat 9am-1pm.\n\nI'll get back to you during business hours. For urgent matters, please call: [YOUR PHONE]",
+  "keywords": {
+    "quote": ["price", "how much", "quote", "rate", "报价", "多少钱", "运价"],
+    "tracking": ["where", "status", "track", "到哪", "状态", "追踪"],
+    "schedule": ["when", "transit", "time", "多久", "时效", "船期"],
+    "service": ["service", "do you", "can you", "服务", "能运"],
+    "greeting": ["hi", "hello", "hey", "你好", "hi", "morning"]
+  }
+}

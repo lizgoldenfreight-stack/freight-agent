@@ -1,0 +1,26 @@
+{
+  "quote": {
+    "en": "Thanks for your interest! To give you an accurate quote, I need:\n\n📦 1. From which city/port in China?\n📍 2. To where in Malaysia?\n📋 3. What cargo?\n📐 4. Volume (CBM) or weight (KG)?\n📅 5. When do you need to ship?\n\nI'll get back with a competitive rate ASAP! 🚢",
+    "cn": "收到！为了给你准确报价，需要以下信息：\n\n📦 1. 从中国哪里出？\n📍 2. 到马来西亚哪里？\n📋 3. 什么货？\n📐 4. 多大体积/多重？\n📅 5. 什么时候出？\n\n确认后马上报价！"
+  },
+  "tracking": {
+    "en": "Let me check the status for you! 🔍\n\nCould you share your booking reference number or B/L number?",
+    "cn": "帮你查一下！🔍\n\n请发一下订单号或提单号？"
+  },
+  "schedule": {
+    "en": "Transit time reference:\n\n🚢 Sea: China → PKL: 7-12 days\nChina → East MY: +3-5 days\n✈️ Air: China → KUL: 1-3 days\n\nPlus 2-3 days for customs & delivery. Need exact timing? Share your route!",
+    "cn": "时效参考：\n\n🚢 海运：中国→巴生港 7-12天\n中国→东马 再加3-5天\n✈️ 空运：中国→吉隆坡 1-3天\n\n加上清关和派送一般还要2-3天。要具体线路的时效告诉我！"
+  },
+  "service": {
+    "en": "We offer:\n\n✅ Sea freight (FCL & LCL)\n✅ Air freight\n✅ Customs clearance\n✅ Door-to-door delivery\n✅ East MY transshipment\n✅ Cargo insurance\n\nWhat do you need? I'll quote you the best rate! 💪",
+    "cn": "我们的服务：\n\n✅ 海运（整柜/拼柜）\n✅ 空运\n✅ 报关清关\n✅ 送货到门\n✅ 东马转运\n✅ 货物保险\n\n需要什么服务？帮你报最优价！"
+  },
+  "greeting": {
+    "en": "Hi! 👋 Thanks for reaching out!\n\nI'm your freight forwarding assistant. How can I help you today?\n\n🚢 Sea freight quotes\n✈️ Air freight quotes\n📦 Shipment tracking\n📋 Customs clearance",
+    "cn": "Hi! 👋 感谢联系！\n\n我是你的货运助手，有什么可以帮你的？\n\n🚢 海运报价\n✈️ 空运报价\n📦 货物追踪\n📋 清关服务"
+  },
+  "unknown": {
+    "en": "Thanks for your message! I'll have our team get back to you shortly. 🙏\n\nIn the meantime, you can:\n• Ask for a quote\n• Check shipment status\n• Get transit time info",
+    "cn": "收到！我会尽快让团队回复你 🙏\n\n你也可以直接问我：\n• 报价查询\n• 货物状态\n• 时效信息"
+  }
+}
