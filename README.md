@@ -10,6 +10,9 @@
 | `WhatsApp_Templates.xlsx` | WhatsApp/微信/Email 快速回复话术库 |
 | `East_MY_Calculator.xlsx` | 东马转运费用计算器（PKG→Kuching/KK + Margin计算） |
 | `Quote_Generator.xlsx` | 报价单生成器 — 填黄色格子，自动出报价单 |
+| `Document_Agent.xlsx` | 文档Agent — 货物信息→自动生成发票/装箱单/文档清单/船期表 |
+| `Followup_Agent.xlsx` | 跟进Agent — 今日跟进/跟进记录/客户分级/消息模板/看板 |
+| `Finance_Agent.xlsx` | 财务Agent — 收支记录/应收应付/月度报表/财务看板 |
 
 ---
 
